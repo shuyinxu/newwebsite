@@ -49,6 +49,25 @@ $("#cover3").hover(function(){
 
 });
 
+// $( "#cover1" ).click(function() {
+//
+//
+// $(".airplane").fadeOut();
+// TweenMax.to(".airplane", 2, {x: -700, y: 550, rotation: -30, scale: 1, delay: 1});
+//
+//     });
+
+  $( "#arrow1" ).click(function() {
+    console.log("lalala");
+      $(".airplane").show(2);
+      TweenMax.to(".airplane", 2, {x: 800, y: 100, rotation: 35, scale: 2.2});
+    });
+
+    $( ".airplane" ).click(function() {
+      console.log("shoed");
+          $(".lightbox").addClass("showup");
+      });
+
     //
     // $("#part1").mouseenter(function(){
     //       console.log("hi");
@@ -89,5 +108,8 @@ $("#cover3").hover(function(){
     //             $(".parts").removeClass("disappear")
     //           $(this).parent('div').children('div').remove();
     //       });
+
+
+
 
 })
