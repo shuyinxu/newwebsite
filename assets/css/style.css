@@ -34,12 +34,13 @@ html, body {
   top: 40%;
   width: 100%;
   color: white;
-  font-size: 100;
+  font-size: 75;
   text-shadow: 1px 1px #70665d;
   /* text-align: center; */
   max-width: 100%;
-  right: -15%;
-  top: 15%;
+  right: -8%;
+  top: 25%;
+  font-family: 'Playfair Display', serif;
   /* font-family: 'Open Sans', sans-serif; */
 }
 #about{
