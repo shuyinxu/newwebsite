@@ -1,7 +1,7 @@
 .headerimages{
   width: 100%;
   overflow-x: : hidden;
-  z-index: 0;
+
   display: inline-block;
   -webkit-filter: blur(2px);
 }
@@ -73,13 +73,13 @@ html, body {
 .parts{
   text-align: center;
   display: inline;
-  background-color: white;
-  z-index: 110;
+
   width: 100%;
-  background-color: white;
+  height: 100%;
   position: absolute;
   left: 0;
   /* top: -10; */
+  top: 0;
 }
 
 a{
@@ -90,8 +90,14 @@ a{
   display: none;
 }
 
-.appear{
-  display: inline-block;
+.arrowsAppear{
+  top: 0;
+  height: 80%;
+  display: inline;
+
+  position: relative;
+  z-index: 1000;
+
 }
 
 .makeWhite{
@@ -105,26 +111,39 @@ a{
   position: relative;
   height: 35%;
   margin: 2%;
+
 }
 
 #arrow1{
-  height: 80%;
+
+
 }
 #arrow2{
-  height: 80%;
+
+
 }
 #arrow3{
-  height: 80%;
+
+
 }
 
 
 .navbar{
   height: 20%;
-  z-index: 0;
-  position: relative;
+
+  position: absolute;
+  width: 100%;
+  bottom: 10%;
 }
 
 .arrows{
   top: 0;
+  height: 80%;
+  display: inline;
+
+  position: relative;
+  z-index: -10;
+
+
   /* position: absolute; */
 }

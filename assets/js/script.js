@@ -7,35 +7,45 @@ $(document).ready(function() {
 });
 
 var disappear = $("#part1");
-
+var appear = $("#arrow1");
 $("#cover1").hover(function(){
   console.log("happy");
   disappear.hide();
+  $("#arrow1").addClass("arrowsAppear");
+  $("#arrow1").removeClass("arrows");
 
 }, function() {
   disappear.show();
-
+  $("#arrow1").removeClass("arrowsAppear");
+  $("#arrow1").addClass("arrows");
 });
 
 var disappear2 = $("#part2");
-
+var appear2 = $("#arrow2");
 $("#cover2").hover(function(){
   console.log("happy");
   disappear2.hide();
+  $("#arrow2").addClass("arrowsAppear");
+  $("#arrow2").removeClass("arrows");
 
 }, function() {
   disappear2.show();
-
+  $("#arrow2").removeClass("arrowsAppear");
+  $("#arrow2").addClass("arrows");
 });
 
 var disappear3 = $("#part3");
-
+var appear3 = $("#arrow3");
 $("#cover3").hover(function(){
   console.log("happy");
   disappear3.hide();
+  $("#arrow3").addClass("arrowsAppear");
+  $("#arrow3").removeClass("arrows");
 
 }, function() {
   disappear3.show();
+  $("#arrow3").removeClass("arrowsAppear");
+  $("#arrow3").addClass("arrows");
 
 });
 
