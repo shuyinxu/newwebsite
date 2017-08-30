@@ -2,7 +2,7 @@
   width: 100%;
   overflow-x: : hidden;
   display: inline-block;
-  
+
 }
 html, body {
   margin: 0;
@@ -34,7 +34,7 @@ html, body {
   top: 40%;
   width: 100%;
   color: white;
-  font-size: 60;
+  font-size: 100;
   text-shadow: 1px 1px #70665d;
   /* text-align: center; */
   max-width: 100%;
