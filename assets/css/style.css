@@ -35,13 +35,16 @@ html, body {
   width: 100%;
   color: white;
   font-size: 75;
-  text-shadow: 1px 1px #70665d;
+  /* text-shadow: 1px 1px #70665d; */
   /* text-align: center; */
   max-width: 100%;
-  right: -8%;
+  /* right: -8%; */
   top: 25%;
-
-   font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  background-color: rgb(119,120,114, .5);
+  left: 0;
+  /* background-color: rgb(119,120,114); */
+  opacity: .7;
 }
 #about{
   /* position: fixed; */
@@ -82,6 +85,7 @@ html, body {
   left: 0;
   top: 0;
   font-family: 'Open Sans', sans-serif;
+  opacity: .8;
 }
 
 a{
