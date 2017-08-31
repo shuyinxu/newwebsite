@@ -2,7 +2,7 @@ $(document).ready(function() {
   $('a').click(function(){
     $('html, body').animate({
       scrollTop: $(this.hash).offset().top
-    }, 500);
+    }, 800);
     return false;
 });
 
@@ -63,12 +63,25 @@ $("#cover3").hover(function(){
       TweenMax.to(".airplane", 2, {x: 800, y: 100, rotation: 35, scale: 2.2});
     });
 
-    $( ".airplane" ).click(function() {
-      console.log("shoed");
-          $(".lightbox").addClass("showup");
-      });
 
-    
+
+      $( "#vimage" ).hover(function() {
+            console.log("gone");
+            // $(".overlay").fadeIn("slow");
+              $("#vimage").fadeTo(100, 0.3, function() {
+
+              });
+              $("#pls").fadeIn(800);
+
+        });
+        $( "#vimage" ).mouseleave(function() {
+              console.log("in");
+             $("#pls").fadeOut(800);
+             $("#vimage").fadeTo(100, 1 );
+          });
+
+
+
 
 
     //

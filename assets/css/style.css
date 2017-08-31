@@ -162,10 +162,12 @@ a{
 
 #resume{
     width: 75%;
+    /* display: block; */
+    display: inline-block;
 }
 
 #end{
-  height: 100%;
+  /* height: 100%; */
   display: block;
   margin-top: 10%;
 }
@@ -288,6 +290,30 @@ a{
   z-index: 409523;
 
 }
+#go_on2{
+  display: block;
+  width: 10%;
+  height: 10%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: -10%;
+  z-index: 409523;
+
+}
+#go_on3{
+  display: block;
+  width: 10%;
+  height: 5%;
+  text-align: center;
+  /* margin: 5%; */
+  /* margin: -10%; */
+  padding: -10%;
+  z-index: 409523;
+  position: absolute;
+  color: blue;
+  left: 45%;
+  margin-top: -1%;
+}
 
 .parallax {
     /* The image used */
@@ -340,4 +366,72 @@ a{
   z-index: 100;
   padding-top: 200px;
   color: white;
+}
+
+#vimage{
+  display: inline;
+  height: 25%;
+  margin: 5%;
+  -webkit-transition: opacity 0.8s ease-in-out;
+  -moz-transition: opacity 0.8s ease-in-out;
+  -o-transition: opacity 0.8s ease-in-out;
+  -ms-transition: opacity 0.8s ease-in-out;
+  transition: opacity 0.8s ease-in-out;
+  position: relative;
+}
+
+#projects{
+  margin: 0 auto;
+  text-align: center;
+}
+
+/*#vimage:hover{
+  opacity: .5;
+}*/
+
+.overlay{
+  position: absolute;
+  left: 0;
+  top: 15%;
+  right: 0;
+  display: none;
+}
+#pls
+{
+  display: inline;
+  position: absolute;
+  top: 25%;
+  z-index: 100;
+  display: none;
+  width: 100%;
+}
+#imgwrapper{
+  width: 50%;
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  /* display: inline; */
+  float: left;
+  text-align: center;
+}
+#imgwrapper2{
+  width: 50%;
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+  /* display: inline; */
+  float: right;
+}
+
+.icons{width: 7%;padding: 5%;cursor: pointer;}
+#links{
+
+  text-align: center;
+}
+.icons:hover{
+  animation: bounce 2s infinite;
+}
+
+#networks{
+  display: block;
 }
