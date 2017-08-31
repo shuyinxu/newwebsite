@@ -41,7 +41,7 @@ html, body {
   right: -8%;
   top: 25%;
 
-   font-family: 'Open Sans', sans-serif; 
+   font-family: 'Open Sans', sans-serif;
 }
 #about{
   /* position: fixed; */
@@ -103,7 +103,7 @@ a{
 
 #moveOnArrows{
   display: block;
-  margin-top: 300%;
+  margin-top: 250%;
   height: 60%;
   text-align: center;
 }
