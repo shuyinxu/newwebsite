@@ -68,6 +68,9 @@ $("#cover3").hover(function(){
           $(".lightbox").addClass("showup");
       });
 
+    
+
+
     //
     // $("#part1").mouseenter(function(){
     //       console.log("hi");

@@ -40,8 +40,8 @@ html, body {
   max-width: 100%;
   right: -8%;
   top: 25%;
-  font-family: 'Playfair Display', serif;
-  /* font-family: 'Open Sans', sans-serif; */
+
+   font-family: 'Open Sans', sans-serif; 
 }
 #about{
   /* position: fixed; */
@@ -96,10 +96,20 @@ a{
   top: 0;
   height: 80%;
   display: inline;
-
   position: relative;
   z-index: 1000;
 
+}
+
+#moveOnArrows{
+  display: block;
+  margin-top: 300%;
+  height: 60%;
+  text-align: center;
+}
+
+#moveOnArrows:hover{
+  animation: bounce2 1s;
 }
 
 .makeWhite{
@@ -137,20 +147,25 @@ a{
 #resumepart{
   margin: 0 auto;
   text-align: center;
-  background-size: cover;
-  background-image: url("resumepic.jpg");
-  width: 100%;
-  height: 40%;
+
+
   display: inline-block;
-  position: absolute;
   top: 0;
-  border: black;
+  margin: 0 auto;
+
+
 }
 
-#resumepart:hover{
-  height: 50%;
-  top: -10;
+#resume{
+    width: 75%;
 }
+
+#end{
+  height: 100%;
+  display: block;
+  margin-top: 10%;
+}
+
 
 .resume1::after{
   content: '';
@@ -215,8 +230,110 @@ a{
 }
 #container{
   width: 100%;
-  height: 100%;
+
   z-index: -10;
   display: block;
   position: relative;
+  text-align: center;
+}
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+
+	40% {
+		-webkit-transform: translateY(-40px);
+		transform: translateY(-40px);
+	}
+
+	80% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+@keyframes bounce2 {
+	0%, 20%, 60%, 100% {
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+	}
+
+
+	40% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+
+	80% {
+		-webkit-transform: translateY(-5px);
+		transform: translateY(-5px);
+	}
+}
+
+
+
+#go_on1{
+  display: block;
+  width: 10%;
+  height: 10%;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: -20%;
+  z-index: 409523;
+
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("pic6.jpg");
+
+    /* Set a specific height */
+    min-height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url("pic4.png");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 {
+    /* The image used */
+    background-image: url("pic1.jpg");
+
+    /* Set a specific height */
+    min-height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#resumeheaderfont{
+  font-size: 100px;
+  font-family: 'Open Sans', sans-serif;
+  margin: 0 auto;
+  text-align: center;
+  /* position: fixed; */
+  z-index: 100;
+  padding-top: 200px;
+  color: white;
 }
